@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER Niclas Ahlstrand <niclas.ahlstrand@gmail.com>
+MAINTAINER Niclas Ahlstrand <niclas.ahlstrand@pensionsmyndigheten.se>
 
 # Add a "Message of the Day" to help identify container when logging in via SSH
 RUN echo '[ Ubuntu 14.04 PM ]' > /etc/motd
